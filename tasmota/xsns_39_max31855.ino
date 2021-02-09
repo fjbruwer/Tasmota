@@ -176,7 +176,7 @@ void MAX31855_Show(bool Json) {
       if(!PinUsed(GPIO_MAX31855CS1,i)) continue;
     //TODO: if not connected, continue
       if (Json) {
-        ResponseAppend_P(PSTR(",\"%s\":{\"" D_JSON_PROBETEMPERATURE "\":%*_f,\"" D_JSON_REFERENCETEMPERATURE "\":%*_f,\"" D_JSON_ID "\":%d}"), \
+	  ResponseAppend_P(PSTR(",\"%s\":{\"" D_JSON_TEMPERATURE "\":%*_f,\"" D_JSON_REFERENCETEMPERATURE "\":%*_f,\"" D_JSON_ID "\":%d}"), \
           sensor_name,
           Settings.flag2.temperature_resolution, &MAX31855_Result[i].ProbeTemperature,
           Settings.flag2.temperature_resolution, &MAX31855_Result[i].ReferenceTemperature,

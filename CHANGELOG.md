@@ -5,8 +5,11 @@ All notable changes to this project will be documented in this file.
 
 ## [9.2.0.6]
 ### Changed
-- Increase number of switch GPIOs from 8 to 28
+- Removed migration support for versions before v8.1.0 (Doris)
+- ESP32 Increase number of switch GPIOs from 8 to 28
+- ESP32 Increase number of interlock groups from 4 to 14
 - Increase number of button GPIOs from 4 to 8
+- Preview of Berry language for Tasmota32
 
 ## [9.2.0.5] 20210205
 ### Changed
