@@ -374,7 +374,7 @@ const uint16_t kGpioConvert[] PROGMEM = {
   AGPIO(GPIO_RF_SENSOR),      // Rf receiver with sensor decoding
   AGPIO(GPIO_AZ_TXD),         // AZ-Instrument 7798 CO2 datalogger Serial interface
   AGPIO(GPIO_AZ_RXD),         // AZ-Instrument 7798 CO2 datalogger Serial interface
-  AGPIO(GPIO_MAX31855CS),     // MAX31855 Serial interface
+  AGPIO(GPIO_MAX31855CS1)+3,     // MAX31855 Serial interface
   AGPIO(GPIO_MAX31855CLK),    // MAX31855 Serial interface
   AGPIO(GPIO_MAX31855DO),     // MAX31855 Serial interface
   AGPIO(GPIO_KEY1_INV),       // Button inverted
